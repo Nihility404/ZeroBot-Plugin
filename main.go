@@ -172,8 +172,8 @@ func init() {
 	url := flag.String("u", "ws://127.0.0.1:6700", "Set Url of WSClient.")
 	// 默认昵称
 	adana := flag.String("n", "一只可爱的RBQ", "Set default nickname.")
-	prefix := flag.String("p", "小可爱", "Set command prefix.")
-	runcfg := flag.String("c", "RBQ", "Run from config file.")
+	prefix := flag.String("p", "", "Set command prefix.")
+	runcfg := flag.String("c", "", "Run from config file.")
 	save := flag.String("s", "", "Save default config to file and exit.")
 
 	flag.Parse()
